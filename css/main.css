@@ -16,6 +16,8 @@ html {
   min-height: 100vh;
   box-sizing: border-box;
 }
-input {
-  display: block;
+.form__item {
+    color: cornflowerblue;
+    display: block;
+    width: 100%;
 }
