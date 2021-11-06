@@ -16,3 +16,6 @@ html {
   min-height: 100vh;
   box-sizing: border-box;
 }
+input {
+  display: block;
+}
