@@ -32,6 +32,63 @@
             id="lastName"
           />
         </p>
+        <p>
+          <label for="phone">Your phone number:</label>
+          <input
+            class="form__item"
+            type="tel"
+            placeholder="Please enter your phone number"
+            name="phone"
+            id="phone"
+          />
+        </p>
+        <p>
+          <label for="emial">Your emial:</label>
+          <input
+            class="form__item"
+            type="email"
+            placeholder="Please enter your emial"
+            name="emial"
+            id="emial"
+          />
+        </p>
+        <p>
+          <label for="favouriteNumber">Your favourite number:</label>
+          <input
+            class="form__item"
+            type="number"
+            placeholder="Please enter your favourite number"
+            name="favouriteNumber"
+            id="favouriteNumber"
+          />
+        </p>
+
+        <p>
+          <label for="password">Your password:</label>
+          <input
+            class="form__item"
+            type="password"
+            placeholder="Please enter your password"
+            name="password"
+            id="password"
+          />
+        </p>
+        <p>
+          <label for="avatar">Avatar:</label>
+          <input class="form__item" type="file" name="avatar" id="avatar" />
+        </p>
+        <p>
+          <label for="range">Range:</label>
+          <input
+            class="form__item range--js"
+            type="range"
+            min="0"
+            max="100"
+            name="range"
+            id="range"
+          />
+        </p>
+
         <fieldset>
           <legend>Address</legend>
           <p>
@@ -69,7 +126,7 @@
           </p>
           <p>
             <label
-              ><input name="iceCeam" type="radio" value="vanilla" />
+              ><input name="iceCeam" checked type="radio" value="vanilla" />
               Vanilla</label
             >
           </p>
@@ -81,7 +138,7 @@
           </p>
         </fieldset>
         <p>
-          <label><input name="agreement" type="checkbox"> I agree</label>
+          <label><input name="agreement" type="checkbox" /> I agree</label>
         </p>
       </form>
     </main>
