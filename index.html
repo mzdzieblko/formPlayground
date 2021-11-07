@@ -14,7 +14,7 @@
       <form class="form" action="#">
         <p>
           <label for="firstName"
-            >Your name<input
+            >Your name:<input
               class="form__item"
               type="text"
               placeholder="Please enter your name"
@@ -23,7 +23,7 @@
           /></label>
         </p>
         <p>
-          <label for="lastName">Your last name</label>
+          <label for="lastName">Your last name:</label>
           <input
             class="form__item"
             type="text"
@@ -31,6 +31,57 @@
             name="lastName"
             id="lastName"
           />
+        </p>
+        <fieldset>
+          <legend>Address</legend>
+          <p>
+            <label
+              >Street name:
+              <input
+                class="form__item"
+                type="text"
+                id="streetName"
+                name="streetName"
+                placeholder="Enter your street name"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >City:
+              <input
+                class="form__item"
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter your City"
+              />
+            </label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Favourite icecream flavour</legend>
+          <p>
+            <label
+              ><input name="iceCeam" type="radio" value="chocolate" />
+              Chocolate</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="iceCeam" type="radio" value="vanilla" />
+              Vanilla</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="iceCeam" type="radio" value="strawberry" />
+              Strawberry</label
+            >
+          </p>
+        </fieldset>
+        <p>
+          <label><input name="agreement" type="checkbox"> I agree</label>
         </p>
       </form>
     </main>
